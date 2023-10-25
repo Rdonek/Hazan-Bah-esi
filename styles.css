@@ -1,67 +1,97 @@
 /* file: styles.css */
 body {
-    background-image: url(japonbahce.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
-    font-family: sans-serif;
-    padding: 20px;
+  background-image: url(japonbahce.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  font-family: sans-serif;
+  padding: 20px;
+}
+
+h1 {
+  font-size: 40px;
+  color: purple;
+}
+
+h2 {
+  color: purple;
+  font-size: 30px;
+}
+
+.established {
+  font-style: italic;
+}
+
+h1,
+h2,
+p {
+  text-align: center;
+}
+
+.menu {
+  width: 80%;
+  background-color: whitesmoke;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px;
+  max-width: 500px;
+}
+
+hr {
+  height: 2px;
+  background-color: purple;
+  border-color: purple;
+}
+
+.bottom-line {
+  margin-top: 25px;
+}
+
+h1,
+h2 {
+  font-family: Impact, serif;
+}
+
+.item p {
+  display: inline-block;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  font-size: 18px;
+}
+
+.flavor,
+.dessert {
+  text-align: left;
+  width: 75%;
+}
+
+.price {
+  text-align: right;
+  width: 25%
+}
+
+@media (max-width: 768px) {
+  body {
+    background-image: none;
+    /* Arka plan resmini kaldırın */
+    background-color: #f0f0f0;
+    padding: 10px;
   }
-  
-  h1 {
-    font-size: 40px;
-    color: purple;
-  }
-  
-  h2 {
-    color: purple;
-    font-size: 30px;
-  }
-  
-  .established {
-    font-style: italic;
-  }
-  
-  h1, h2, p {
-    text-align: center;
-  }
-  
+
   .menu {
-    width: 80%;
-    background-color: whitesmoke;
-    margin-left: auto;
-    margin-right: auto;
-    padding: 20px;
-    max-width: 500px;
+    width: 100%;
+    margin: 0;
   }
-  
-  hr {
-    height: 2px;
-    background-color: purple;
-    border-color: purple;
+
+  h1 {
+    font-size: 24px;
   }
-  
-  .bottom-line {
-    margin-top: 25px;
+
+  h2 {
+    font-size: 20px;
   }
-  
-  h1, h2 {
-    font-family: Impact, serif;
-  }
-  
+
   .item p {
-    display: inline-block;
-    margin-top: 5px;
-    margin-bottom: 5px;
-    font-size: 18px;
+    font-size: 16px;
   }
-  
-  .flavor, .dessert {
-    text-align: left;
-    width: 75%;
-  }
-  
-  .price {
-    text-align: right;
-    width: 25%
-  }
+}
