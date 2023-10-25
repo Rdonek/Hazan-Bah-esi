@@ -74,13 +74,13 @@ h2 {
   body {
     background-image: none;
     /* Arka plan resmini kaldırın */
-    background-color: #050505;
+    background-color: black;
     padding: 10px;
   }
 
   .menu {
     
-    background-color: #050505;
+    background-color: black;
     width: 100%;
     margin: 0;
     color: white;
